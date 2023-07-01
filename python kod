@@ -1,0 +1,9 @@
+like = 1600
+ dislike = 5789
+ rating = = like / (like + dislike)
+rating_yuzde = rating*100
+print("Bu videonun begeni orani: %", rating_yuzde)
+ if (rating yuzde > 50):
+    print("Bu video begenildi")
+ else:
+    print("Bu video begenilmedil")
